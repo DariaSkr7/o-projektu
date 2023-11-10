@@ -1,0 +1,23 @@
+.profile__card--layout2 {
+  display: flex;
+  gap: 100px;
+  flex-direction: row-reverse;
+}
+
+.img__container {
+  width: 300px;
+  height: 300px;
+
+  background-color: grey;
+  /*temporary*/
+
+  flex-shrink: 0;
+}
+
+.profile__image {
+  max-width: 100%;
+}
+
+.profile__description {
+  text-align: center;
+}
