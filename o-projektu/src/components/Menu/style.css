@@ -1,3 +1,26 @@
-li {
+.navbar {
+  background-color: grey;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 4.2rem;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 30px;
+  align-items: center;
+}
+
+ul {
   list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 1.2rem;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: black;
 }

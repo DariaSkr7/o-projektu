@@ -4,6 +4,7 @@ import { Menu } from '../../components/Menu';
 import { AboutProject } from '../../components/AboutProject';
 import { AboutDaria } from '../../components/AboutDaria';
 import { AboutAnna } from '../../components/AboutAnna';
+import { Footer } from '../../components/Footer';
 
 export const HomePage = () => {
   return (
@@ -17,7 +18,7 @@ export const HomePage = () => {
         <AboutDaria />
         <AboutAnna />
       </main>
-      <footer></footer>
+      <Footer />
     </div>
   );
 };

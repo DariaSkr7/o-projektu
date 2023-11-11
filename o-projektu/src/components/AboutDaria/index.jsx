@@ -2,13 +2,13 @@ import './style.css';
 
 export const AboutDaria = () => {
   return (
-    <section class="profile__container">
-      <h2 class="profile__name">Daria Skoryk</h2>
-      <section class="profile__card--layout2">
-        <div class="img__container">
-          <img class="profile__image" src="" alt="" />
+    <section className="profile__container">
+      <h2 className="profile__name">Daria Skoryk</h2>
+      <section className="profile__card--layout2">
+        <div className="img__container">
+          <img className="profile__image" src="" alt="" />
         </div>
-        <article class="profile__description">
+        <article className="profile__description">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
             aliquam, labore veniam aliquid quidem odio sapiente ipsa amet

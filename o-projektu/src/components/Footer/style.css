@@ -1,0 +1,7 @@
+footer {
+  background-color: firebrick;
+  max-width: 900px;
+  text-align: center;
+  padding: 1rem;
+  bottom: 0;
+}

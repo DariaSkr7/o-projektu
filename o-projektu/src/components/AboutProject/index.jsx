@@ -2,11 +2,11 @@ import './style.css';
 
 export const AboutProject = () => {
   return (
-    <section class="profile__card--layout1">
-      <div class="img__container">
-        <img class="profile__image" src="" alt="" />
+    <section className="profile__card--layout1">
+      <div className="img__container">
+        <img className="profile__image" src="" alt="" />
       </div>
-      <article class="profile__description">
+      <article className="profile__description">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
           aliquam, labore veniam aliquid quidem odio sapiente ipsa amet tenetur

@@ -2,7 +2,7 @@ import './style.css';
 
 export const Menu = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
         <li>
           <a href="">About project</a>
