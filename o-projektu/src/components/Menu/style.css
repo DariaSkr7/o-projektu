@@ -5,9 +5,10 @@
   height: 4.2rem;
   position: fixed;
   top: 0;
+  left: 0;
   display: flex;
   justify-content: space-evenly;
-  padding-right: 30px;
+  /* padding-right: 30px; */
   align-items: center;
 }
 

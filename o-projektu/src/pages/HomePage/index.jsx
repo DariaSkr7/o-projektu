@@ -41,6 +41,7 @@ const renderAboutSections = () => {
   return pagesInfo.map((pageInfo) => {
     return (
       <About
+        id={pageInfo.id}
         key={pageInfo.id}
         name={pageInfo.name}
         image={pageInfo.image}
@@ -57,7 +58,7 @@ export const HomePage = () => {
         <Menu />
       </header>
       <main>
-        <section>
+        <section className="main-section">
           <h1>TRAVEL DIARY</h1>
         </section>
         {renderAboutSections()}

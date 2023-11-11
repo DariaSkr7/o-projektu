@@ -5,13 +5,13 @@ export const Menu = () => {
     <nav className="navbar">
       <ul>
         <li>
-          <a href="">About project</a>
+          <a href="#project">Project</a>
         </li>
         <li>
-          <a href="">About Daria</a>
+          <a href="#anna">Anna</a>
         </li>
         <li>
-          <a href="">About Anna</a>
+          <a href="#daria">Daria</a>
         </li>
       </ul>
     </nav>

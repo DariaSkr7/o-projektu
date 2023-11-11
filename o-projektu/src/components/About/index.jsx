@@ -1,8 +1,8 @@
 import './style.css';
 
-export const About = ({ name, image, text }) => {
+export const About = ({ id, name, image, text }) => {
   return (
-    <section className="about--layout">
+    <section id={id} className="about--layout">
       <h2 className="profile__name">{name}</h2>
       <div className="profile__card--layout">
         <div className="img__container">
