@@ -1,7 +1,6 @@
-.profile__card--layout2 {
+.profile__card--layout {
   display: flex;
   gap: 100px;
-  flex-direction: row-reverse;
 }
 
 .img__container {
