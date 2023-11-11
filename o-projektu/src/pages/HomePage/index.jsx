@@ -60,6 +60,11 @@ export const HomePage = () => {
       <main>
         <section className="main-section">
           <h1>TRAVEL DIARY</h1>
+          <h2>
+            Don't let the world's chaos deter you,
+            <br />
+            let the wanderlust within you guide you.
+          </h2>
         </section>
         {renderAboutSections()}
       </main>
