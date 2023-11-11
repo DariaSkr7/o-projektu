@@ -15,22 +15,9 @@ h2 {
   text-align: center;
 }
 
-
-header {
-  /* padding-top: 8rem;
-  padding-bottom: 8rem; */
-}
-
 .about--layout:nth-of-type(2n)>.profile__card--layout {
   flex-direction: row-reverse;
 }
-
-
-footer {
-  /* margin-top: 1.2rem; */
-}
-
-
 
 section {
   display: block;

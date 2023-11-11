@@ -1,5 +1,5 @@
 .navbar {
-  background-color: grey;
+  background-color: rgba(2, 79, 89, 0.8);
   font-size: 1.5rem;
   width: 100%;
   height: 4.2rem;
@@ -24,4 +24,10 @@ li {
 .navbar__link {
   text-decoration: none;
   color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-variant-caps: all-petite-caps;
 }

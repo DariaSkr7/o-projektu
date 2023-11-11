@@ -1,5 +1,8 @@
 footer {
-  background-color: firebrick;
+  background-color: #024f59;
+  opacity: 0.8;
   text-align: center;
-  bottom: 0;
+  height: 4.2rem;
+  padding: 10px;
+  color: white;
 }
