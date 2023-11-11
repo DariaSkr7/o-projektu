@@ -2,16 +2,16 @@ import './style.css';
 
 export const About = ({ id, name, image, text }) => {
   return (
-    <section id={id} className="about--layout">
-      <h2 className="profile__name">{name}</h2>
-      <div className="profile__card--layout">
-        <div className="img__container">
-          <img className="profile__image" src={image} alt={name} />
+    <>
+      <figure>
+        <img src={image} alt />
+      </figure>
+      <section id={id}>
+        <div>
+          <h3>{name}</h3>
+          {text}
         </div>
-        <article className="profile__description">
-          <p>{text}</p>
-        </article>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
