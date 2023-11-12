@@ -3,12 +3,18 @@ import './style.css';
 import { Menu } from '../../components/Menu';
 import { Footer } from '../../components/Footer';
 import { About } from '../../components/About';
+import dashboard from './img/dashboard.png';
+import places from './img/places.png';
+import anna from './img/anna.png';
+import daria from './img/daria.jpg';
+import githubIcon from '../../components/About/img/github.png';
+import linkedinIcon from '../../components/About/img/linkedin.png';
 
 const pagesInfo = [
   {
     id: 'project',
     name: 'About project',
-    image: '../../pages/HomePage/img/places.png',
+    image: places,
     text: (
       <>
         <p>Let's embark on a journey and travel the world!</p>
@@ -29,7 +35,7 @@ const pagesInfo = [
   {
     id: 'more-details',
     name: 'More details',
-    image: '../../pages/HomePage/img/dashboard.png',
+    image: dashboard,
     text: (
       <>
         <p>
@@ -53,7 +59,7 @@ const pagesInfo = [
   {
     id: 'anna',
     name: 'Anna Švejdová',
-    image: '../../pages/HomePage/img/anna.png',
+    image: anna,
     text: (
       <>
         <p>
@@ -72,11 +78,7 @@ const pagesInfo = [
     icons: (
       <div className="profile__links">
         <a href="https://github.com/annasve" target="_blank">
-          <img
-            className="icons icon"
-            src="../components/About/img/github.png"
-            alt="Github logo"
-          />
+          <img className="icons icon" src={githubIcon} alt="Github logo" />
         </a>
       </div>
     ),
@@ -84,7 +86,7 @@ const pagesInfo = [
   {
     id: 'daria',
     name: 'Daria Skoryk',
-    image: '../../pages/HomePage/img/daria.jpg',
+    image: daria,
     text: (
       <>
         <p>
@@ -103,18 +105,10 @@ const pagesInfo = [
     icons: (
       <div className="profile__links">
         <a href="https://github.com/DariaSkr7" target="_blank">
-          <img
-            className="icons icon"
-            src="../components/About/img/github.png"
-            alt="Github logo"
-          />
+          <img className="icons icon" src={githubIcon} alt="Github logo" />
         </a>
         <a href="https://www.linkedin.com/in/daria-skoryk/" target="_blank">
-          <img
-            className="icons icon"
-            src="../components/About/img/linkedin.png"
-            alt="LinkedIn logo"
-          />
+          <img className="icons icon" src={linkedinIcon} alt="LinkedIn logo" />
         </a>
       </div>
     ),
