@@ -24,6 +24,7 @@ const pagesInfo = [
         </p>
       </>
     ),
+    icons: '',
   },
   {
     id: 'more-details',
@@ -47,6 +48,7 @@ const pagesInfo = [
         </p>
       </>
     ),
+    icons: '',
   },
   {
     id: 'anna',
@@ -66,6 +68,17 @@ const pagesInfo = [
         </p>
         <p> Let's embrace the challenge!</p>
       </>
+    ),
+    icons: (
+      <div className="profile__links">
+        <a href="https://github.com/annasve" target="_blank">
+          <img
+            className="icons icon"
+            src="../components/About/img/github.png"
+            alt="Github logo"
+          />
+        </a>
+      </div>
     ),
   },
   {
@@ -87,6 +100,24 @@ const pagesInfo = [
         <p>Thank you for taking part in this journey with me.</p>
       </>
     ),
+    icons: (
+      <div className="profile__links">
+        <a href="https://github.com/DariaSkr7" target="_blank">
+          <img
+            className="icons icon"
+            src="../components/About/img/github.png"
+            alt="Github logo"
+          />
+        </a>
+        <a href="https://cz.linkedin.com/" target="_blank">
+          <img
+            className="icons icon"
+            src="../components/About/img/linkedin.png"
+            alt="LinkedIn logo"
+          />
+        </a>
+      </div>
+    ),
   },
 ];
 
@@ -99,6 +130,7 @@ const renderAboutSections = () => {
         name={pageInfo.name}
         image={pageInfo.image}
         text={pageInfo.text}
+        icons={pageInfo.icons}
       />
     );
   });

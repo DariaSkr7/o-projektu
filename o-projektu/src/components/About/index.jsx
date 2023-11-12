@@ -1,6 +1,6 @@
 import './style.css';
 
-export const About = ({ id, name, image, text }) => {
+export const About = ({ id, name, image, text, icons }) => {
   return (
     <>
       <figure>
@@ -10,6 +10,7 @@ export const About = ({ id, name, image, text }) => {
         <div>
           <h3>{name}</h3>
           {text}
+          {icons}
         </div>
       </section>
     </>

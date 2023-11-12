@@ -96,7 +96,7 @@
   }
 
   section>div>p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   section:nth-of-type(2n)>div>h3 {
@@ -106,4 +106,20 @@
   section:nth-of-type(2n+1)>div>h3 {
     text-align: left;
   }
+}
+
+.profile__links {
+  display: flex;
+  gap: 1.5rem;
+
+}
+
+.icons {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon:hover {
+  transform: translate(0, 8px);
+  transition: transform 0.3s ease-out;
 }
