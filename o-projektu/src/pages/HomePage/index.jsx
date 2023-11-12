@@ -109,7 +109,7 @@ const pagesInfo = [
             alt="Github logo"
           />
         </a>
-        <a href="https://cz.linkedin.com/" target="_blank">
+        <a href="https://www.linkedin.com/in/daria-skoryk/" target="_blank">
           <img
             className="icons icon"
             src="../components/About/img/linkedin.png"
