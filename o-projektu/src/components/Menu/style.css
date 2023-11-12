@@ -8,7 +8,6 @@
   left: 0;
   display: flex;
   justify-content: space-evenly;
-  /* padding-right: 30px; */
   align-items: center;
   z-index: 1;
 }
