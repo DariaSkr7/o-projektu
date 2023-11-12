@@ -7,6 +7,46 @@
   position: relative;
 }
 
+@media screen and (max-width: 659px) {
+  img {
+    width: 100%;
+  }
+
+  section {
+    padding-top: 30px;
+    height: initial;
+    width: initial;
+  }
+
+  p,
+  h3 {
+    margin: 1rem;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  section>div {
+    border-bottom: 2px dashed #048899;
+    width: 100vw;
+  }
+
+  #daria>div {
+    border-bottom: none;
+  }
+
+  figure:nth-of-type(odd) {
+    margin: none;
+    width: initial;
+    margin: initial;
+  }
+
+  .profile__links {
+    padding: 1.5rem;
+  }
+}
+
 @media screen and (min-width: 700px) {
   article {
     display: flex;
