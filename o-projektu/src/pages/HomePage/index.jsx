@@ -10,49 +10,42 @@ const pagesInfo = [
     name: 'About project',
     image: '../../pages/HomePage/img/places.png',
     text: (
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-        odit, assumenda fugiat earum laborum, esse cumque molestiae ullam
-        laboriosam, magni possimus debitis at? Molestiae eveniet quasi vero
-        praesentium obcaecati! Optio nihil nemo vero molestias soluta blanditiis
-        possimus doloribus cupiditate et! Id sed necessitatibus dolorum rem
-        harum eveniet perferendis expedita facilis totam accusamus velit, alias
-        consequuntur quis sapiente ut illo! Vel in suscipit tempora iure harum!
-        Rem asperiores, inventore sapiente quas odit optio atque, minima sunt,
-        fugit aut dolores facere quod modi quam? Dignissimos placeat, natus
-        delectus distinctio fugiat ullam! Quia nostrum veritatis consequuntur
-        voluptates qui nisi quas a dicta ducimus corporis vel eaque iure
-        quisquam odit facilis, exercitationem fuga numquam alias earum rem
-        aspernatur inventore rerum et laudantium. Labore. Facilis consectetur
-        voluptatibus id. Sapiente placeat odit, nulla officiis est perspiciatis
-        quod asperiores optio repudiandae iste molestiae totam sunt fugiat at
-        eius quasi eligendi harum ducimus, quidem numquam expedita sequi!
-      </p>
+      <>
+        <p>Let's embark on a journey and travel the world!</p>
+        <p>
+          Our user will be able to create a personalized interactive map of
+          their global adventures. It will be a digital experience that allows
+          the user to immerse themselves in the heartbeat of each destination
+          with essential country information at their fingertips.
+        </p>
+        <p>
+          Every moment of user's trip becomes a cherished memory thanks to our
+          app!
+        </p>
+      </>
     ),
   },
   {
     id: 'more-details',
-    name: 'more-details',
+    name: 'More details',
     image: '../../pages/HomePage/img/dashboard.png',
     text: (
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-        odit, assumenda fugiat earum laborum, esse cumque molestiae ullam
-        laboriosam, magni possimus debitis at? Molestiae eveniet quasi vero
-        praesentium obcaecati! Optio nihil nemo vero molestias soluta blanditiis
-        possimus doloribus cupiditate et! Id sed necessitatibus dolorum rem
-        harum eveniet perferendis expedita facilis totam accusamus velit, alias
-        consequuntur quis sapiente ut illo! Vel in suscipit tempora iure harum!
-        Rem asperiores, inventore sapiente quas odit optio atque, minima sunt,
-        fugit aut dolores facere quod modi quam? Dignissimos placeat, natus
-        delectus distinctio fugiat ullam! Quia nostrum veritatis consequuntur
-        voluptates qui nisi quas a dicta ducimus corporis vel eaque iure
-        quisquam odit facilis, exercitationem fuga numquam alias earum rem
-        aspernatur inventore rerum et laudantium. Labore. Facilis consectetur
-        voluptatibus id. Sapiente placeat odit, nulla officiis est perspiciatis
-        quod asperiores optio repudiandae iste molestiae totam sunt fugiat at
-        eius quasi eligendi harum ducimus, quidem numquam expedita sequi!
-      </p>
+      <>
+        <p>
+          We aim to create a travel diary application catering to all explorers,
+          featuring an interactive map, essential country information, and
+          functionalities for trip planning and archiving.
+        </p>
+        <p>
+          Our project revolves around an interactive world map accompanied by
+          statistics, allowing travelers to save details about their past trips.
+        </p>
+        <p>
+          To maintain the spirit of wanderlust, we'll also provide a gallery of
+          places with information on each location, including country overviews,
+          cultural highlights, popular destinations, and weather.
+        </p>
+      </>
     ),
   },
   {
@@ -60,24 +53,19 @@ const pagesInfo = [
     name: 'Anna Švejdová',
     image: '../../pages/HomePage/img/anna.png',
     text: (
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam
-        odit, assumenda fugiat earum laborum, esse cumque molestiae ullam
-        laboriosam, magni possimus debitis at? Molestiae eveniet quasi vero
-        praesentium obcaecati! Optio nihil nemo vero molestias soluta blanditiis
-        possimus doloribus cupiditate et! Id sed necessitatibus dolorum rem
-        harum eveniet perferendis expedita facilis totam accusamus velit, alias
-        consequuntur quis sapiente ut illo! Vel in suscipit tempora iure harum!
-        Rem asperiores, inventore sapiente quas odit optio atque, minima sunt,
-        fugit aut dolores facere quod modi quam? Dignissimos placeat, natus
-        delectus distinctio fugiat ullam! Quia nostrum veritatis consequuntur
-        voluptates qui nisi quas a dicta ducimus corporis vel eaque iure
-        quisquam odit facilis, exercitationem fuga numquam alias earum rem
-        aspernatur inventore rerum et laudantium. Labore. Facilis consectetur
-        voluptatibus id. Sapiente placeat odit, nulla officiis est perspiciatis
-        quod asperiores optio repudiandae iste molestiae totam sunt fugiat at
-        eius quasi eligendi harum ducimus, quidem numquam expedita sequi!
-      </p>
+      <>
+        <p>
+          Hello, I'm Anna, and I'm at the beginning of my journey toward
+          becoming a frontend developer. I am a keen explorer and a passionate
+          learner. I love the fact that technology helps us overcome obstacles
+          and create things that were mere dreams just a few years ago.
+        </p>
+        <p>
+          Little by little, I'm getting the superpowers of React and the
+          underlying technologies under my skin.
+        </p>
+        <p> Let's embrace the challenge!</p>
+      </>
     ),
   },
   {

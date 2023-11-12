@@ -4,7 +4,7 @@ export const About = ({ id, name, image, text }) => {
   return (
     <>
       <figure>
-        <img src={image} alt />
+        <img src={image} alt={name} />
       </figure>
       <section id={id}>
         <div>
